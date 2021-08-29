@@ -1,0 +1,15 @@
+{
+  "name": "Extract the filename from an image URL and return a Base64 encoded string",
+  "description": "",
+  "author": "Darren Murphy <darren@victoriajd.com>",
+  "params": [
+    {
+      "name": "url",
+      "displayName": "Image URL",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
