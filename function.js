@@ -1,7 +1,13 @@
 
-window.function = function (url) {
+window.function = function (url, strip) {
   if (url.value === undefined) return undefined;
   
-  var filename = url.value.split('/').slice(-1);
-  return btoa(filename);
+  if (strip.value === true) {
+    var filename = url.value.split('/').slice(-1);
+    return btoa(filename);
+  }
+  else {
+    return btoa(url.value);
+  }
+
 }

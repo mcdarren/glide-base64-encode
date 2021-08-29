@@ -7,6 +7,11 @@
       "name": "url",
       "displayName": "Image URL",
       "type": "string"
+    },
+    {
+      "name": "strip",
+      "displayName": "Strip all but the file name",
+      "type": "boolean"
     }
   ],
   "result": {
