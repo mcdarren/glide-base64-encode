@@ -1,5 +1,5 @@
 
-window.function = function (url, strip, base64_encode) {
+window.function = function (url) {
   if (url.value === undefined) return undefined;
   
   return url.value.split('/').slice(-1);
