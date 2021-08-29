@@ -1,16 +1,21 @@
 {
-  "name": "Extract the filename from an image URL and return a Base64 encoded string",
+  "name": "Do stuff with a Glide Image URL",
   "description": "",
   "author": "Darren Murphy <darren@victoriajd.com>",
   "params": [
     {
       "name": "url",
-      "displayName": "Image URL",
+      "displayName": "Source Image URL",
       "type": "string"
     },
     {
       "name": "strip",
-      "displayName": "Strip all but the file name",
+      "displayName": "Return just the filename (default true)",
+      "type": "boolean"
+    },
+    {
+      "name": "base64_encode",
+      "displayName": "Return a Base64 encoded result (default true)",
       "type": "boolean"
     }
   ],
