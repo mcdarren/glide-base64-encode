@@ -1,11 +1,11 @@
 {
-  "name": "Extract image filename from a Glide Image URL",
+  "name": "Base64 Encode a string",
   "description": "",
   "author": "Darren Murphy <darren@victoriajd.com>",
   "params": [
     {
-      "name": "url",
-      "displayName": "Source Image URL",
+      "name": "string",
+      "displayName": "Source String",
       "type": "string"
     }
   ],

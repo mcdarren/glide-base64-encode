@@ -1,8 +1,6 @@
 
-window.function = function (url) {
-  if (url.value === undefined) return undefined;
+window.function = function (string) {
+  if (string.value === undefined) return undefined;
   
-  return url.value.split('/').slice(-1)[0];
-  
-
+  return btoa(string.value);
 }
